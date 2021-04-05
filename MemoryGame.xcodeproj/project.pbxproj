@@ -8,18 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		73EF71CA261A7AC000D12BD9 /* MemoryGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EF71C9261A7AC000D12BD9 /* MemoryGameApp.swift */; };
-		73EF71CC261A7AC000D12BD9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EF71CB261A7AC000D12BD9 /* ContentView.swift */; };
 		73EF71CE261A7AC300D12BD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73EF71CD261A7AC300D12BD9 /* Assets.xcassets */; };
 		73EF71D1261A7AC300D12BD9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73EF71D0261A7AC300D12BD9 /* Preview Assets.xcassets */; };
+		73EF71DA261A7B4800D12BD9 /* IntroGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EF71D9261A7B4800D12BD9 /* IntroGameView.swift */; };
+		73EF71E1261A7C7D00D12BD9 /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EF71E0261A7C7D00D12BD9 /* Array+Identifiable.swift */; };
+		73EF71E4261A7D6000D12BD9 /* Array+Only.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EF71E3261A7D6000D12BD9 /* Array+Only.swift */; };
+		73EF71E7261A816A00D12BD9 /* MemoryGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EF71E6261A816A00D12BD9 /* MemoryGameModel.swift */; };
+		73EF71EB261A9CCF00D12BD9 /* MemoryGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EF71EA261A9CCF00D12BD9 /* MemoryGameViewModel.swift */; };
+		73EF71F0261AA04600D12BD9 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EF71EF261AA04600D12BD9 /* Grid.swift */; };
+		73EF71F3261AA05100D12BD9 /* Cronometro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EF71F2261AA05100D12BD9 /* Cronometro.swift */; };
+		73EF71F6261AA05800D12BD9 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EF71F5261AA05800D12BD9 /* GridLayout.swift */; };
+		73EF71F9261AA0F000D12BD9 /* MemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EF71F8261AA0F000D12BD9 /* MemoryGameView.swift */; };
+		73EF71FD261AA27A00D12BD9 /* CardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EF71FC261AA27A00D12BD9 /* CardModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		73EF71C6261A7AC000D12BD9 /* MemoryGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73EF71C9261A7AC000D12BD9 /* MemoryGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameApp.swift; sourceTree = "<group>"; };
-		73EF71CB261A7AC000D12BD9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		73EF71CD261A7AC300D12BD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73EF71D0261A7AC300D12BD9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		73EF71D2261A7AC300D12BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73EF71D9261A7B4800D12BD9 /* IntroGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroGameView.swift; sourceTree = "<group>"; };
+		73EF71E0261A7C7D00D12BD9 /* Array+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
+		73EF71E3261A7D6000D12BD9 /* Array+Only.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Only.swift"; sourceTree = "<group>"; };
+		73EF71E6261A816A00D12BD9 /* MemoryGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameModel.swift; sourceTree = "<group>"; };
+		73EF71EA261A9CCF00D12BD9 /* MemoryGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameViewModel.swift; sourceTree = "<group>"; };
+		73EF71EF261AA04600D12BD9 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		73EF71F2261AA05100D12BD9 /* Cronometro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cronometro.swift; sourceTree = "<group>"; };
+		73EF71F5261AA05800D12BD9 /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		73EF71F8261AA0F000D12BD9 /* MemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameView.swift; sourceTree = "<group>"; };
+		73EF71FC261AA27A00D12BD9 /* CardModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +70,12 @@
 		73EF71C8261A7AC000D12BD9 /* MemoryGame */ = {
 			isa = PBXGroup;
 			children = (
+				73EF71E9261A9C9400D12BD9 /* ViewModel */,
+				73EF71DF261A7BFD00D12BD9 /* Extensions */,
+				73EF71DE261A7BCF00D12BD9 /* View */,
+				73EF71DD261A7BC800D12BD9 /* Model */,
 				73EF71C9261A7AC000D12BD9 /* MemoryGameApp.swift */,
-				73EF71CB261A7AC000D12BD9 /* ContentView.swift */,
+				73EF71F2261AA05100D12BD9 /* Cronometro.swift */,
 				73EF71CD261A7AC300D12BD9 /* Assets.xcassets */,
 				73EF71D2261A7AC300D12BD9 /* Info.plist */,
 				73EF71CF261A7AC300D12BD9 /* Preview Content */,
@@ -67,6 +89,51 @@
 				73EF71D0261A7AC300D12BD9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		73EF71DD261A7BC800D12BD9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				73EF71E6261A816A00D12BD9 /* MemoryGameModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		73EF71DE261A7BCF00D12BD9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				73EF71FF261AA27F00D12BD9 /* Modifiers */,
+				73EF71F5261AA05800D12BD9 /* GridLayout.swift */,
+				73EF71EF261AA04600D12BD9 /* Grid.swift */,
+				73EF71D9261A7B4800D12BD9 /* IntroGameView.swift */,
+				73EF71F8261AA0F000D12BD9 /* MemoryGameView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		73EF71DF261A7BFD00D12BD9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				73EF71E0261A7C7D00D12BD9 /* Array+Identifiable.swift */,
+				73EF71E3261A7D6000D12BD9 /* Array+Only.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		73EF71E9261A9C9400D12BD9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				73EF71EA261A9CCF00D12BD9 /* MemoryGameViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		73EF71FF261AA27F00D12BD9 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				73EF71FC261AA27A00D12BD9 /* CardModifier.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +205,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73EF71CC261A7AC000D12BD9 /* ContentView.swift in Sources */,
+				73EF71EB261A9CCF00D12BD9 /* MemoryGameViewModel.swift in Sources */,
+				73EF71E1261A7C7D00D12BD9 /* Array+Identifiable.swift in Sources */,
+				73EF71F0261AA04600D12BD9 /* Grid.swift in Sources */,
+				73EF71E7261A816A00D12BD9 /* MemoryGameModel.swift in Sources */,
+				73EF71FD261AA27A00D12BD9 /* CardModifier.swift in Sources */,
 				73EF71CA261A7AC000D12BD9 /* MemoryGameApp.swift in Sources */,
+				73EF71E4261A7D6000D12BD9 /* Array+Only.swift in Sources */,
+				73EF71F6261AA05800D12BD9 /* GridLayout.swift in Sources */,
+				73EF71DA261A7B4800D12BD9 /* IntroGameView.swift in Sources */,
+				73EF71F9261AA0F000D12BD9 /* MemoryGameView.swift in Sources */,
+				73EF71F3261AA05100D12BD9 /* Cronometro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
